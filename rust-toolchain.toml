@@ -1,4 +1,5 @@
 [toolchain]
 channel = "stable"
 targets = [ "thumbv6m-none-eabi" ]
+components = [ "rust-src", "llvm-tools-preview" ]
 profile = "minimal"
