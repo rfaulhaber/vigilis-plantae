@@ -35,19 +35,21 @@
               extensions = ["rust-src"];
               targets = ["thumbv6m-none-eabi"];
             })
-            rustfmt
             clippy
             rust-analyzer
-            rustup
 
             cargo-binutils
             elf2uf2-rs
             openocd
             openocd-rp2040
+            probe-rs-tools
 
             picocom
             udev
             pkg-config # this is needed by cargo-embed
+
+            beam27Packages.elixir
+            beam27Packages.elixir-ls
           ];
         };
       };
